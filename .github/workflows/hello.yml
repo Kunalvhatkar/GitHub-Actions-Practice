@@ -24,7 +24,7 @@ jobs:
      runs-on: ubuntu-latest
      steps:
        - name: list files in repo
-         run : ls -R ${{ github.workspace }}
+         run : ls -la
 
 
 
