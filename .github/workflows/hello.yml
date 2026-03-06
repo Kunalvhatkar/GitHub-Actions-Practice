@@ -23,6 +23,9 @@ jobs:
   list_file_repo:
      runs-on: ubuntu-latest
      steps:
+       - name: Checkout code
+         uses: actions/checkout@v4
+         
        - name: list files in repo
          run : ls -la \GitHub-Actions-Practice\.github\workflows
 
