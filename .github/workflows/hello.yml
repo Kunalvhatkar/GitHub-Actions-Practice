@@ -13,3 +13,15 @@ jobs:
 
       - name: say hello
         run: echo "hello Github Action"
+  
+  date:
+    runs-on: ubuntu-latest
+    steps:
+      - name: current time & Date
+        uses: echo "current time and date is $(date)"
+  
+  
+
+
+
+  
