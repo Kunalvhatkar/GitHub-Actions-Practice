@@ -24,7 +24,8 @@ jobs:
      runs-on: ubuntu-latest
      steps:
        - name: list files in repo
-         run : $(ls /GitHub-Actions-Practice)
+         run : ls -R ${{ github.workspace }}
+
 
 
 
