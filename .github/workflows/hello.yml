@@ -28,6 +28,13 @@ jobs:
 
        - name: list files in repo
          run : ls -la
+  
+  Branch_name:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print branch name
+        run: echo "Branch name is ${{ github.ref_name }}"
+ 
 
 
 
