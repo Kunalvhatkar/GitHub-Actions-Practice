@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: current time & Date
-        uses: echo "current time and date is $(date)"
+        run: echo "current time and date is $(date)"
   
   
 
