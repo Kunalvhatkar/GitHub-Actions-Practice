@@ -25,9 +25,9 @@ jobs:
      steps:
        - name: Checkout code
          uses: actions/checkout@v4
-         
+
        - name: list files in repo
-         run : ls -la \GitHub-Actions-Practice\.github\workflows
+         run : ls -la
 
 
 
