@@ -35,6 +35,11 @@ jobs:
       - name: Print branch name
         run: echo "Branch name is ${{ github.ref_name }}"
  
+  Runnner-Operating-system: 
+    runs-on: ubuntu-latest
+    steps: 
+      - name: Print runner operating system
+        run: echo "Runner OS is $RUNNER_OS"
 
 
 
