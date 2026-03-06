@@ -20,7 +20,11 @@ jobs:
       - name: current time & Date
         run: echo "current time and date is $(date)"
   
-  
+  list_file_repo:
+     runs-on: ubuntu-latest
+     steps:
+       - name: list files in repo
+         run : $(ls /GitHub-Actions-Practice)
 
 
 
