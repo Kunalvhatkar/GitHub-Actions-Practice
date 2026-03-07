@@ -45,7 +45,7 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: Break It On Purpose
-        run: docker --version
+        run: docke --version
 
 
 
