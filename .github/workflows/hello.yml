@@ -40,7 +40,12 @@ jobs:
     steps: 
       - name: Print runner operating system
         run: echo "Runner OS is $RUNNER_OS"
-
+  
+  fail-coomand:
+    runs-on: ubuntu-latest
+    steps: 
+      - name: Break It On Purpose
+        run: exit 1
 
 
 
