@@ -41,11 +41,11 @@ jobs:
       - name: Print runner operating system
         run: echo "Runner OS is $RUNNER_OS"
   
-  fail-coomand:
+  fail-command:
     runs-on: ubuntu-latest
     steps: 
       - name: Break It On Purpose
-        run: docke --version
+        run: docker --version
 
 
 
